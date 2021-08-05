@@ -1,0 +1,150 @@
+nav {
+	padding: 60px;
+	text-align: center;
+
+	color: white;
+	font-size: 30px;
+  }
+  
+a > h1{
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin:50px;
+   color: rgb(70, 130,125);
+   display: inline;
+   font: roboto;
+}
+.wrapper { 
+	height: 100%;
+	width: 100%;
+	left:0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+	animation: rainbow 18s ease infinite;}
+  
+  @-webkit-keyframes rainbow {
+	  0%{background-position:0% 82%}
+	  50%{background-position:100% 19%}
+	  100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+	  0%{background-position:0% 82%}
+	  50%{background-position:100% 19%}
+	  100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+	  0%{background-position:0% 82%}
+	  50%{background-position:100% 19%}
+	  100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+	  0%{background-position:0% 82%}
+	  50%{background-position:100% 19%}
+	  100%{background-position:0% 82%}
+  }
+ .section>p{
+	  width: 50%;
+	  float: right;
+  }
+  
+  
+  img{
+	  width:30%;
+	  border-radius: 50%;
+	  border:10px solid blue
+  }
+  h1{
+	  margin: 0px;
+  }
+  img:hover{
+	width: 50%;
+	transition:  2s;
+	
+}
+form a{
+     position: relative;
+	 padding: 20px 40px;
+	 border: 2px solid green;
+	 font-size: 2em;
+	 text-transform: uppercase;
+	 text-decoration: none;
+	 color: #fff;
+	 letter-spacing: 4px;
+	 transition: 0.5s;
+	 display: flex;
+
+}
+form a:hover{
+	color: green;
+}
+
+form a:before{
+ content:'' ;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: green;
+ z-index: -1;
+ transform-origin: left;
+ transition: 0.5s ease;
+ transform: scaleX(1);
+
+
+}
+form a:before:hover{
+	transform-origin: right;
+	transition: transform 0.5s ease;
+	transform: scaleX(0);
+   
+   
+   }
+   main{
+	background-image: linear-gradient(to bottom, rgba(229, 255, 0, 0.1), rgb(0, 255, 106));
+ } 
+ p{
+	 color:rgb(216, 142, 112);
+	 font-size: medium;
+ }
+   
+ 
+  h1 {
+	position: relative;
+	text-align: center;
+	padding: 40px 0;
+  
+	
+	white-space: nowrap;
+  
+	 background: linear-gradient( 92deg, #95d7e3, #eb76ff );
+	background: -webkit-linear-gradient( 92deg, #95d7e3, #eb76ff );
+	background-size:600vw 600vw;
+	
+	
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textAnimate 5s linear infinite alternate;
+  }
+  
+  @keyframes textAnimate {
+	from {
+	  filter: hue-rotate(0deg);
+	  background-position-x: 0%;
+	  
+	}
+	to {
+	  filter: hue-rotate(360deg);
+	  background-position-x: 600vw;
+	  
+	}
+  }
